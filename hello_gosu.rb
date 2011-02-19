@@ -12,7 +12,7 @@ class HelloWindow < Gosu::Window
     @background_image.draw( 0, 0, 1 )
   end
 
-  def button_down(id)
+  def button_down( id )
     close
   end
 
