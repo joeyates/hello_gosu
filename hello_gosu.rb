@@ -5,7 +5,7 @@ class HelloWindow < Gosu::Window
 
   def initialize
     super( 250, 100, false )
-    @background_image = Gosu::Image.new( self, 'hello_world.png', false )
+    @background_image = Gosu::Image.new( self, 'hello_world.png' )
   end
 
   def draw
